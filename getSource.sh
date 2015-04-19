@@ -17,4 +17,4 @@ sed --in-place '1s:#\!/usr/bin/env.*:#\!/usr/bin/env python2:' ~/bin/repo
 proxychains repo init -u https://android.googlesource.com/platform/manifest
 
 # pull down the Android source tree
-repo sync
+proxychains repo sync
