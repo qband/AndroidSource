@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidStudio.iml" filepath="$PROJECT_DIR$/.idea/AndroidStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidSource.iml" filepath="$PROJECT_DIR$/.idea/AndroidSource.iml" />
     </modules>
   </component>
 </project>
