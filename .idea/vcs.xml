@@ -2,10 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/.repo/manifests" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/.repo/repo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/platform/build" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/platform/manifest" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/platform/sdk" vcs="Git" />
   </component>
 </project>
