@@ -10,9 +10,6 @@ chmod a+x ~/bin/repo
 sed --in-place '1s:#\!/usr/bin/env.*:#\!/usr/bin/env python2:' ~/bin/repo
 
 # Initialize a Repo client
-#WORKING_DIRECTORY=~/Documents/JetBrains/IDEA/AndroidSource
-#mkdir -p $WORKING_DIRECTORY
-#cd $WORKING_DIRECTORY
 # bring down the latest version of Repo & specify a URL for the manifest
 repo init -u https://android.googlesource.com/platform/manifest
 
