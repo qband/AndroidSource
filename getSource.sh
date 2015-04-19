@@ -7,7 +7,7 @@ proxychains curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/
 chmod a+x ~/bin/repo
 
 # modify the shebang line in a python script
-sed --in-place '1s:.*:#\!/usr/bin/env python2:' ~/bin/repo
+sed --in-place '1s:#\!/usr/bin/env.*:#\!/usr/bin/env python2:' ~/bin/repo
 
 # Initialize a Repo client
 #WORKING_DIRECTORY=~/Documents/JetBrains/IDEA/AndroidSource
