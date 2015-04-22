@@ -28,4 +28,8 @@ device
 sdk
 libnativehelper
 cts
+
+#
 Makefile
+temp-python
+out
