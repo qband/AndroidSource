@@ -6,3 +6,6 @@ please run as: proxychains sh getSource.sh
 #dependencies
 proxychains
 virtualenv
+
+libtinfo
+gperf
