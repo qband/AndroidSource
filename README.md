@@ -2,3 +2,7 @@
 
 use proxychains to solve GFW problem,
 please run as: proxychains sh getSource.sh
+
+#dependencies
+proxychains
+virtualenv
