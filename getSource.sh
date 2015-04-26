@@ -12,7 +12,7 @@ chmod a+x ~/bin/repo
 
 # Initialize a Repo client
 # bring down the latest version of Repo & specify a URL for the manifest
-repo init -u https://android.googlesource.com/platform/manifest -b ub-tools-master
+repo init -u https://android.googlesource.com/platform/manifest -b master -g all,-notdefault
 
 # pull down the Android source tree
 until repo sync; do
