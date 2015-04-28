@@ -1,13 +1,13 @@
 # android source tree
 ## Linux
 
-use proxychains to solve GFW problem,
+use proxychains to solve proxy problem,
 please run as:
 proxychains sh getSource.sh
 
 ## Windows
 
-use cntlm to solve GFW problem,
+use cntlm to solve proxy problem,
 please run in Git Bash:
 getSourceWin.sh
 
