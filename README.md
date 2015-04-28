@@ -1,18 +1,18 @@
-#android source tree
-##Linux
+# android source tree
+## Linux
 
 use proxychains to solve GFW problem,
 please run as:
-proxychains sh get*Source.sh
+proxychains sh getSource.sh
 
-##Windows
+## Windows
 
 use cntlm to solve GFW problem,
 please run in Git Bash:
-get*SourceWin.sh
+getSourceWin.sh
 
-#dependencies
-##Linux
+# dependencies
+## Linux
 
 proxychains
 virtualenv
@@ -20,7 +20,7 @@ virtualenv
 libtinfo
 gperf
 
-##Windows
+## Windows
 
 - [cntlm](http://cntlm.sourceforge.net/)
 - [git-repo](https://github.com/esrlabs/git-repo)
