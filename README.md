@@ -3,13 +3,14 @@
 
 use proxychains to solve proxy problem,
 please run as:
-proxychains sh getSource.sh
+**mkdir -p src/aosp && cd src/aosp && proxychains ../../scripts/getSource.sh** or **proxychains make download-linux**
 
 ## Windows
 
 use cntlm to solve proxy problem,
 please run in Git Bash:
 getSourceWin.sh
+**mkdir -p src/aosp && cd src/aosp && ../../scripts/getSourceWin.sh** or **make download-windows**
 
 # dependencies
 ## Linux

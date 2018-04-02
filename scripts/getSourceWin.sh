@@ -13,8 +13,9 @@ repo init -u https://android.googlesource.com/platform/manifest -b master -g all
 #repo forall -c 'git checkout master'
 
 # pull down the Android source tree
-until repo sync; do
-	echo sync failed, retrying in 3 seconds...
-	sleep 3
+until repo sync
+do
+  echo sync failed, retrying in 3 seconds...
+  sleep 3
 done
 
